@@ -1,6 +1,5 @@
 {
 	"application":{
-    "name": "helloWorld",
     "domain": "127.0.0.1",
     "httpPort": 80,
     "httpsPort": 443, 
@@ -27,16 +26,6 @@
 	}
 	},
 	"dbConnections":[
-		{
-			"appName" : "app1",
-			"driver" : "mssql",
-			"connectionString" : "server=myServerAddress;Database=HelloWorld;user id=myUsername;Password=myPassword;Connection Timeout=3000;"
-		},
-		{
-			"appName" : "app2",
-			"driver" : "mysql",
-			"connectionString" : " myUsername:myPassword@/HelloWorld"
-		},
 		{
 			"appName" : "helloWorld",
 			"driver" : "boltDB",
