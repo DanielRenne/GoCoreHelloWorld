@@ -23,11 +23,11 @@ type Person struct {
 }
 
 type HandDetails struct {
-	FingerCount uint64 `json:"fingerCount"`
+	FingerCount int `json:"fingerCount"`
 }
 
 type Field12Sub struct {
-	SubField uint64 `json:"subField"`
+	SubField int `json:"subField"`
 }
 
 func (obj *Persons) Single(field string, value interface{}) (retObj Person, e error) {

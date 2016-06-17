@@ -12,10 +12,10 @@ import (
 
 func init() {
 
-	ginServer.AddRouterGroup("/api/v1", "/singlePersons", "GET", getSinglePersons)
-	ginServer.AddRouterGroup("/api/v1", "/searchPersons", "GET", getSearchPersons)
-	ginServer.AddRouterGroup("/api/v1", "/sortPersons", "GET", getSortPersons)
-	ginServer.AddRouterGroup("/api/v1", "/rangePersons", "GET", getRangePersons)
+	ginServer.AddRouterGroup("/api/v1", "/persons/singleBy", "GET", getSinglePersons)
+	ginServer.AddRouterGroup("/api/v1", "/persons/searchBy", "GET", getSearchPersons)
+	ginServer.AddRouterGroup("/api/v1", "/persons/sortBy", "GET", getSortPersons)
+	ginServer.AddRouterGroup("/api/v1", "/persons/rangeBy", "GET", getRangePersons)
 	ginServer.AddRouterGroup("/api/v1", "/persons", "GET", getPersons)
 	ginServer.AddRouterGroup("/api/v1", "/person", "POST", postPerson)
 	ginServer.AddRouterGroup("/api/v1", "/person", "PUT", putPerson)
