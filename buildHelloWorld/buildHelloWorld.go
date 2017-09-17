@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	buildCore.Initialize("src/github.com/DanielRenne/GoCoreHelloWorld")
+	buildCore.Initialize("src/github.com/DanielRenne/GoCoreHelloWorld", "webConfig.json")
 }
