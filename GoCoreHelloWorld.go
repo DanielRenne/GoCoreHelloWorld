@@ -7,7 +7,7 @@ import (
 
 func main() {
 	//Run First.
-	app.Initialize("src/github.com/DanielRenne/GoCoreHelloWorld")
+	app.Initialize("src/github.com/DanielRenne/GoCoreHelloWorld", "mywebsite.com")
 
 	//Add your Application Code here.
 
